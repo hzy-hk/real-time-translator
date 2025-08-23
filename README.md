@@ -18,3 +18,6 @@ Real-time screen text recognition and translation overlay using PaddleOCR and Py
 
 ## Usage
 python main.py
+
+<img width="655" height="380" alt="original" src="https://github.com/user-attachments/assets/107a475a-25b9-48fb-9585-781dcadae5d3" />
+<img width="655" height="414" alt="translated" src="https://github.com/user-attachments/assets/722b1063-1721-4f01-a49f-68cd4f044620" />
