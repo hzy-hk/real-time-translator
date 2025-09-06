@@ -1,12 +1,12 @@
 # Translating Assistant
-
 Real-time screen text recognition and translation overlay using PaddleOCR and PyQt5. 
 
 ## Feature
-- Capture screen content in real time  
+- Capture screen content realtime periodically.
+- Text extracted by PaddleOCR from sliced screenshots with mutliple processes.
 - Translate recognized text with Google Translate API.
-- The transparent overlay window will appear on top of your screen, showing tranlated text aligned with detected regions.
-- Designed for macOS, but can be adapted for other platforms  
+- The transparent overlay window appear on top of the screen, showing tranlated text positioned at detected regions.
+- Designed for macOS, may be adapted for other platforms (not yet tested).  
 
 
 ## Requirements
@@ -14,7 +14,6 @@ Real-time screen text recognition and translation overlay using PaddleOCR and Py
 - PyQt5  
 - paddleocr  
 - googletrans (or another translation library)  
-- mss
 
 ## Usage
 python main.py
